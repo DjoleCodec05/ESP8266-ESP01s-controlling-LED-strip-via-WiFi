@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "KOSTAL";
-const char* password = "bubasasa";
-const char* serverIP = "192.168.0.38"; // Change to the IP address of your ESP8266 NodeMCU server
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_AUTH_CODE";
+const char* serverIP = "SERVER_IP_ADRESS"; // Change to the IP address of your ESP8266 NodeMCU server
 const int serverPort = 80;
 
 const int pushButtonPin = 0; // Push button connected to GPIO0
