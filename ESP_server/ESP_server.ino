@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "KOSTAL";
-const char* password = "bubasasa";
+const char* ssid = "WIFI_SSID";
+const char* password = "WIFI_AUTH_CODE";
 ESP8266WebServer server(80);
 
 bool relayState = false; // Tracks the state of the relay
